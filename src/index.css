@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+.app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* Navbar */
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 75px;
+  color: white;
+  background-color: rgb(235, 75, 75);
+  box-shadow: 0px 3px 8px rgba(29, 24, 24, 0.6);
+}
+
+.navbar img{
+  height: 30px;
+  padding-right: 20px;
+}
+
+/* Footer */
+
+footer{
+  background-color:rgb(235, 75, 75);
+  height: 45px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  box-shadow: 1px 0px 7px rgba(29, 24, 24, 0.6);
+ 
+}
+footer img{
+  height: 40px;
+  padding:0 20px;
+}
+
+/* Card */
+
+.card{
+  flex: 1;
+  width: 300px;
+  height: 240px;
+  display: flex;
+  margin: 20px 30px;
+
+}
+
+.card--img{
+  width: 250px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.card--details{
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  align-items: flex-start;
+}
+
+.location--details{
+  display: flex;
+  padding: 0 22px;
+  align-items: center;
+
+}
+
+.location--details img{
+  width: 25px;
+  margin-right: 10px;
+}
+
+.location--details p{
+  margin-right: 10px;
+}
+
+.description--title{
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+  justify-content: space-between;
+  }
+
+
+.dates{
+  font-weight: bold;
+}
+
+.description--details{
+  font-size: 18px;
+ 
+
+}
